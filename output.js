@@ -1,96 +1,6 @@
-//Fri Feb 27 2026 02:00:50 GMT+0000 (Coordinated Universal Time)
+//Fri Feb 27 2026 02:03:04 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-var encode_version = "jsjiami.com.v5";
-try {
-  var _0x510037 = ["domain", "split", "reverse", "join", "search", "href", "random", true];
-  var _0x533e51 = document[_0x510037[0]];
-  var _0x3b5498 = function (_0x20a646) {
-    return _0x20a646[_0x510037[1]]("")[_0x510037[2]]()[_0x510037[3]]("");
-  };
-  var _0xa5d95a = function (_0x3fd9b7, _0x3a58d7) {
-    var _0x45a444 = function () {
-      var _0x52aa6f = true;
-      return function (_0x578ffa, _0xb417a3) {
-        var _0x5bcfdc = _0x52aa6f ? function () {
-          if (_0xb417a3) {
-            {
-              var _0x444496 = _0xb417a3.apply(_0x578ffa, arguments);
-              _0xb417a3 = null;
-              return _0x444496;
-            }
-          }
-        } : function () {};
-        _0x52aa6f = false;
-        return _0x5bcfdc;
-      };
-    }();
-    var _0x541e41 = _0x45a444(this, function () {
-      var _0x156205 = function () {};
-      var _0xd33d48 = typeof window !== "undefined" ? window : typeof process === "object" && typeof require === "function" && typeof global === "object" ? global : this;
-      if (!_0xd33d48.console) {
-        {
-          _0xd33d48.console = function (_0x586954) {
-            var _0xd63df = {};
-            _0xd63df.log = _0x586954;
-            _0xd63df.warn = _0x586954;
-            _0xd63df.debug = _0x586954;
-            _0xd63df.info = _0x586954;
-            _0xd63df.error = _0x586954;
-            _0xd63df.exception = _0x586954;
-            _0xd63df.trace = _0x586954;
-            return _0xd63df;
-          }(_0x156205);
-        }
-      } else {
-        _0xd33d48.console.log = _0x156205;
-        _0xd33d48.console.warn = _0x156205;
-        _0xd33d48.console.debug = _0x156205;
-        _0xd33d48.console.info = _0x156205;
-        _0xd33d48.console.error = _0x156205;
-        _0xd33d48.console.exception = _0x156205;
-        _0xd33d48.console.trace = _0x156205;
-      }
-    });
-    _0x541e41();
-    return _0x3b5498(_0x3fd9b7)[_0x510037[4]](_0x3a58d7) === 0;
-  };
-  if (!(_0xa5d95a(_0x533e51, "moc.ecizro") || _0xa5d95a(_0x533e51, "moc.ecigca"))) {
-    while (_0x510037[7]) {
-      location[_0x510037[5]] = location[_0x510037[5]] + "?" + Math[_0x510037[6]]();
-    }
-  }
-} catch (_0x1107a7) {
-  console.log(_0x1107a7);
-}
-function FuncMapPwd() {
-  AppDataVue.map_pwd = {
-    a: ["", ""],
-    b: ["", ""],
-    c: ["", ""],
-    d: ["", ""],
-    e: ["", ""]
-  };
-  axios.get(BaseApiHost + "/api/xtc/map_pwd" + GetPath("")).then(_0x56d85f => {
-    {
-      let _0x376a7c = _0x56d85f.data;
-      if (_0x376a7c.code == 0) {
-        _0x376a7c.data = GetData01(_0x376a7c.data);
-        AppDataVue.map_pwd = _0x376a7c.data;
-      } else {
-        AppDataVue.$message({
-          message: _0x376a7c.msg,
-          type: "error"
-        });
-      }
-    }
-  }).catch(_0x57f7bf => {
-    AppDataVue.$message({
-      message: "获取地图密码失败，请刷新网页",
-      type: "error"
-    });
-  });
-}
 function FuncGetKeysDay(_0xee51d7) {
   AppDataVue.keys_day = [];
   axios.get(BaseApiHost + "/api/xtc/keys_day" + GetPath("")).then(_0x46d26d => {
@@ -781,18 +691,4 @@ function FuncLoadRQ(_0x1c94e9) {
     }
   }).catch(_0x3d0e41 => {});
 }
-(function (_0xdd216b, _0x1f79e9, _0x2e343b) {
-  _0x2e343b = "al";
-  try {
-    _0x2e343b += "ert";
-    _0x1f79e9 = encode_version;
-    if (!(typeof _0x1f79e9 !== "undefined" && _0x1f79e9 === "jsjiami.com.v5")) {
-      _0xdd216b[_0x2e343b]("删除版本号，js会定期弹窗，还请支持我们的工作");
-    }
-  } catch (_0x3e77d2) {
-    {
-      _0xdd216b[_0x2e343b]("删除版本号，js会定期弹窗");
-    }
-  }
-})(window);
 encode_version = "jsjiami.com.v5";
